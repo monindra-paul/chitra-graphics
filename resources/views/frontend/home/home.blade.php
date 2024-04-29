@@ -1,10 +1,7 @@
 @extends('frontend.layout.app')
-
-
 @section('mainsection')
 
 
-	
 		<!-- 
 			=============================================
 				Theme Main Banner One
@@ -108,45 +105,75 @@
 			</div> <!-- /.agn-what-we-do -->
 	
 	
+			
 			<!-- 
-				=============================================
-					About Us
-				============================================== 
-				-->
-			<div class="agn-about-us">
-				<img src="{{asset('assets/images/shape/shape-61.svg')}}" alt="" class="shape-one">
-				<img src="{{asset('assets/images/shape/shape-64.svg')}}" alt="" class="shape-two" data-aos="fade-left">
-				<img src="{{asset('assets/images/shape/shape-65.svg')}}" alt="" class="shape-three" data-aos="fade-right">
-				<img src="{{asset('assets/images/shape/shape-60.svg')}}" alt="" class="shape-four">
+			=============================================
+				Our Service Minimal
+			============================================== 
+			-->
+			<div class="our-service service-minimal pt-150 pb-100">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 order-lg-last">
-							<div class="text-wrapper">
-								<div class="theme-title-one">
-									<div class="upper-title">About us</div>
-									<h2 class="main-title">Leading Digital Agency for Business Solution.</h2>
-								</div> <!-- /.theme-title-one -->
-								<p>Lorem ipsum dolor sit amet, hendrerit omittantur mel, es vidit animal iracundia. Ius te
-									altera essent incorrupte. Id alien accu consetetur eam, nibh aliquam iracundia.</p>
-								<p class="quote">Lorem ipsum dolor sit amet, hendrerit omittantur mel et, est ut vidit
-									animal iracundia luis.</p>
-								<div class="author"><span class="name">Rashed Kabir, </span>CEO CreativeGigs</div>
-								<img src="{{asset('assets/images/shape/signature.png')}}" alt="">
+					<div class="theme-title-three text-center mb-200">
+						<h2 class="title">We’v been providing our services with proud since 1980.</h2>
+						<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+					</div> <!-- /.theme-title-three -->
+
+					<div class="demo-container-1100">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="service-block" data-aos="fade-up">
+									<div class="icon-box"><img src="{{asset('assets/images/icon/icon48.svg')}}" alt=""></div>
+									<h2 class="service-title"><a href="{{route('courses')}}">Project Based, Live Learning</a></h2>
+									<p>Become job ready by applying what you learn and build real life projects.</p>
+									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+								</div> <!-- /.service-block -->
 							</div>
-						</div>
-						<div class="col-lg-6 order-lg-first">
-							<div class="img-box">
-								<img src="{{asset('assets/images/home/1.jpg')}}" alt="" class="main-img">
+							<div class="col-lg-6">
+								<div class="service-block" data-aos="fade-up" data-aos-delay="100">
+									<div class="icon-box"><img src="{{asset('assets/images/icon/icon49.svg')}}" alt=""></div>
+									<h2 class="service-title"><a href="{{route('courses')}}">Dedicated career services.</a></h2>
+									<p>Resume & interview praps with industry experts & exclusive job board.</p>
+									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+								</div> <!-- /.service-block -->
 							</div>
-						</div>
-					</div>
+							<div class="col-lg-6">
+								<div class="service-block" data-aos="fade-up">
+									<div class="icon-box"><img src="{{asset('assets/images/icon/icon50.svg')}}" alt=""></div>
+									<h2 class="service-title"><a href="{{route('courses')}}">100% Placement Assistance</a></h2>
+									<p>We have Dedicated job/Placeman! Team Who Help Students Get a Better</p>
+									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+								</div> <!-- /.service-block -->
+							</div>
+							<div class="col-lg-6">
+								<div class="service-block" data-aos="fade-up" data-aos-delay="100">
+									<div class="icon-box"><img src="{{asset('assets/images/icon/icon51.svg')}}" alt=""></div>
+									<h2 class="service-title"><a href="{{route('courses')}}">Certificate After Completion</a></h2>
+									<p>Get Certified Alter Completion of Our Courses</p>
+									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+								</div> <!-- /.service-block -->
+							</div>
+							<div class="col-lg-6">
+								<div class="service-block" data-aos="fade-up">
+									<div class="icon-box"><img src="{{asset('assets/images/icon/icon52.svg')}}" alt=""></div>
+									<h2 class="service-title"><a href="{{route('courses')}}">FREE Videos & PDFs</a></h2>
+									<p>Get All The Resources of all Course Absolutely FREE.</p>
+									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+								</div> <!-- /.service-block -->
+							</div>
+							<div class="col-lg-6">
+								<div class="service-block" data-aos="fade-up" data-aos-delay="100">
+									<div class="icon-box"><img src="{{asset('assets/images/icon/icon53.svg')}}" alt=""></div>
+									<h2 class="service-title"><a href="{{route('courses')}}">Low Cost, High Value</a></h2>
+									<p>You will get all Premium courses with Lowest Prices</p>
+									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+								</div> <!-- /.service-block -->
+							</div>
+						</div> <!-- /.row -->
+					</div> <!-- /.demo-container-1100 -->
 				</div> <!-- /.container -->
-				<a href="about-us-agency.html" class="learn-more theme-button-two" data-aos="fade-left">Learn More <i
-						class="fa fa-angle-right icon-right" aria-hidden="true"></i></a>
-			</div> <!-- /.agn-about-us -->
-	
-	
-	
+			</div> <!-- /.our-service -->
+
+
 			<!-- 
 				=============================================
 					Theme Counter
@@ -195,7 +222,7 @@
 								<h3 class="title">Have any question about us?</h3>
 								<p>Dont’t hesitate to contact us.</p>
 							</div>
-							<a href="contact-us-standard.html" class="contact solid-button-one">Contact us</a>
+							<a href="{{route('contact')}}" class="contact solid-button-one">Contact us</a>
 						</div>
 					</div>
 				</div> <!-- /.container -->
@@ -261,241 +288,6 @@
 			</div> <!-- /.agn-our-gallery -->
 	
 	
-			<!--
-				=====================================================
-					Our Pricing
-				=====================================================
-				-->
-			<div class="agn-our-pricing pt-150 pb-200">
-				<img src="{{asset('assets/images/shape/shape-55.svg')}}" alt="" class="shape-one">
-				<img src="{{asset('assets/images/shape/shape-62.svg')}}" alt="" class="shape-two">
-				<img src="{{asset('assets/images/shape/shape-1.svg')}}" alt="" class="shape-three">
-				<img src="{{asset('assets/images/shape/shape-60.svg')}}" alt="" class="shape-four">
-				<img src="{{asset('assets/images/shape/shape-57.svg')}}" alt="" class="shape-five">
-				<div class="container">
-					<div class="theme-title-one text-center">
-						<div class="upper-title">Pricing Plan</div>
-						<h2 class="main-title">No Hidden Charges! Choose <br>your Plan.</h2>
-					</div> <!-- /.theme-title-one -->
-				</div> <!-- /.container -->
-	
-				<div class="pricing-tab-menu mt-70">
-					<div class="nav-wrapper">
-						<ul class="nav nav-tabs justify-content-center">
-							<li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#month">Monthly</a></li>
-							<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#annual">Annual</a></li>
-						</ul>
-					</div>
-					<p>Save 30% on annual plan</p>
-				</div> <!-- /.pricing-tab-menu -->
-	
-				<div class="tab-content">
-					<!-- ^^^^^^^^^^^^^^^^^^^^^ Monthly ^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
-					<div id="month" class="tab-pane fade show active">
-						<div class="table-wrapper">
-							<div class="inner-table clearfix">
-								<ul class="pr-list-text">
-									<li>Full Access Library</li>
-									<li>Multiple User</li>
-									<li>Refund</li>
-									<li>24/7 Support</li>
-								</ul> <!-- /.pr-list-text -->
-								<div class="pr-column">
-									<div class="pr-header">
-										<div class="price">$2300<span>/MO</span></div>
-										<h4 class="title">Sandwich</h4>
-										<div class="package">Reguler</div>
-									</div> <!-- /.pr-header -->
-									<ul class="pr-body">
-										<li>
-											<div class="pr-text">Full Access Library</div>
-											<i class="icon flaticon-cancel none"></i>
-										</li>
-										<li>
-											<div class="pr-text">Multiple User</div>
-											<i class="icon flaticon-cancel none"></i>
-										</li>
-										<li>
-											<div class="pr-text">Refund</div>
-											<i class="icon flaticon-cancel none"></i>
-										</li>
-										<li>
-											<div class="pr-text">24/7 Support</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-									</ul>
-									<div class="pr-footer">
-										<a href="#" class="choose-button line-button-two">Choose Plan</a>
-										<p>Get your 30 day free trial</p>
-									</div>
-								</div> <!-- /.pr-column -->
-								<div class="pr-column">
-									<div class="pr-header">
-										<div class="price">$6000<span>/MO</span></div>
-										<h4 class="title">Subway</h4>
-										<div class="package">Premium</div>
-									</div> <!-- /.pr-header -->
-									<ul class="pr-body">
-										<li>
-											<div class="pr-text">Full Access Library</div>
-											<i class="icon flaticon-cancel none"></i>
-										</li>
-										<li>
-											<div class="pr-text">Multiple User</div>
-											<i class="icon flaticon-cancel none"></i>
-										</li>
-										<li>
-											<div class="pr-text">Refund</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-										<li>
-											<div class="pr-text">24/7 Support</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-									</ul>
-									<div class="pr-footer">
-										<a href="#" class="choose-button line-button-two">Choose Plan</a>
-										<p>Get your 30 day free trial</p>
-									</div>
-								</div> <!-- /.pr-column -->
-								<div class="pr-column">
-									<div class="pr-header">
-										<div class="price">$9500<span>/MO</span></div>
-										<h4 class="title">Burger</h4>
-										<div class="package">Corporate</div>
-									</div> <!-- /.pr-header -->
-									<ul class="pr-body">
-										<li>
-											<div class="pr-text">Full Access Library</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-										<li>
-											<div class="pr-text">Multiple User</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-										<li>
-											<div class="pr-text">Refund</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-										<li>
-											<div class="pr-text">24/7 Support</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-									</ul>
-									<div class="pr-footer">
-										<a href="#" class="choose-button line-button-two">Choose Plan</a>
-										<p>Get your 30 day free trial</p>
-									</div>
-								</div> <!-- /.pr-column -->
-							</div> <!-- /.inner-table -->
-						</div> <!-- /.table-wrapper -->
-					</div> <!-- /#month -->
-	
-					<!-- ^^^^^^^^^^^^^^^^^^^^^ Yearly ^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
-					<div id="annual" class="tab-pane fade">
-						<div class="table-wrapper">
-							<div class="inner-table clearfix">
-								<ul class="pr-list-text">
-									<li>Full Access Library</li>
-									<li>Multiple User</li>
-									<li>Refund</li>
-									<li>24/7 Support</li>
-								</ul> <!-- /.pr-list-text -->
-								<div class="pr-column">
-									<div class="pr-header">
-										<div class="price">$6300<span>/YR</span></div>
-										<h4 class="title">Sandwich</h4>
-										<div class="package">Reguler</div>
-									</div> <!-- /.pr-header -->
-									<ul class="pr-body">
-										<li>
-											<div class="pr-text">Full Access Library</div>
-											<i class="icon flaticon-cancel none"></i>
-										</li>
-										<li>
-											<div class="pr-text">Multiple User</div>
-											<i class="icon flaticon-cancel none"></i>
-										</li>
-										<li>
-											<div class="pr-text">Refund</div>
-											<i class="icon flaticon-cancel none"></i>
-										</li>
-										<li>
-											<div class="pr-text">24/7 Support</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-									</ul>
-									<div class="pr-footer">
-										<a href="#" class="choose-button line-button-two">Choose Plan</a>
-										<p>Get your 30 day free trial</p>
-									</div>
-								</div> <!-- /.pr-column -->
-								<div class="pr-column">
-									<div class="pr-header">
-										<div class="price">$8000<span>/YR</span></div>
-										<h4 class="title">Subway</h4>
-										<div class="package">Premium</div>
-									</div> <!-- /.pr-header -->
-									<ul class="pr-body">
-										<li>
-											<div class="pr-text">Full Access Library</div>
-											<i class="icon flaticon-cancel none"></i>
-										</li>
-										<li>
-											<div class="pr-text">Multiple User</div>
-											<i class="icon flaticon-cancel none"></i>
-										</li>
-										<li>
-											<div class="pr-text">Refund</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-										<li>
-											<div class="pr-text">24/7 Support</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-									</ul>
-									<div class="pr-footer">
-										<a href="#" class="choose-button line-button-two">Choose Plan</a>
-										<p>Get your 30 day free trial</p>
-									</div>
-								</div> <!-- /.pr-column -->
-								<div class="pr-column">
-									<div class="pr-header">
-										<div class="price">$9900<span>/YR</span></div>
-										<h4 class="title">Burger</h4>
-										<div class="package">Corporate</div>
-									</div> <!-- /.pr-header -->
-									<ul class="pr-body">
-										<li>
-											<div class="pr-text">Full Access Library</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-										<li>
-											<div class="pr-text">Multiple User</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-										<li>
-											<div class="pr-text">Refund</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-										<li>
-											<div class="pr-text">24/7 Support</div>
-											<i class="icon flaticon-tick available"></i>
-										</li>
-									</ul>
-									<div class="pr-footer">
-										<a href="#" class="choose-button line-button-two">Choose Plan</a>
-										<p>Get your 30 day free trial</p>
-									</div>
-								</div> <!-- /.pr-column -->
-							</div> <!-- /.inner-table -->
-						</div> <!-- /.table-wrapper -->
-					</div> <!-- /#annual -->
-				</div>
-	
-			</div> <!-- /.agn-our-pricing -->
-	
-	
 	
 	
 	
@@ -557,105 +349,5 @@
 	
 	
 	
-			<!--
-				=====================================================
-					Our Blog
-				=====================================================
-				-->
-			<div class="agn-home-blog our-blog-one">
-				<img src="{{asset('assets/images/shape/shape-58.svg')}}" alt="" class="shape-one">
-				<img src="{{asset('assets/images/shape/shape-57.svg')}}" alt="" class="shape-two">
-				<img src="{{asset('assets/images/shape/shape-9.svg')}}" alt="" class="shape-three">
-				<img src="{{asset('assets/images/shape/shape-55.svg')}}" alt="" class="shape-four">
-				<div class="container">
-					<div class="theme-title-one text-center">
-						<div class="upper-title">Our Blog</div>
-						<h2 class="main-title">Our Company News</h2>
-					</div> <!-- /.theme-title-one -->
-	
-					<div class="blog-one-slider">
-						<div class="item">
-							<div class="single-blog-post">
-								<div class="flip-box-front">
-									<div class="clearfix">
-										<img src="{{asset('assets/images/home/2.jpg')}}" alt="" class="author-img">
-										<div class="author-info">
-											<h6 class="name">Rashed Kabir.</h6>
-											<div class="date">06 Aug 2018</div>
-										</div>
-									</div>
-									<a href="#" class="title">Internet advertising what Went wrong.</a>
-									<p>Having a home based business is a wonderful asset to your life. The main problem time
-										advertise..</p>
-								</div> <!-- /.flip-box-front -->
-								<div class="flip-box-back">
-									<div class="author-info">
-										<h6 class="name">Rashed Kabir.</h6>
-										<div class="date">06 Aug 2018</div>
-									</div>
-									<a href="blog-details.html" class="title">Internet advertising what Went wrong.</a>
-									<a href="blog-details.html" class="more"><i class='flaticon-next-1'></i></a>
-								</div> <!-- /.flip-box-back -->
-							</div> <!-- /.single-blog-post -->
-						</div>
-	
-						<div class="item">
-							<div class="single-blog-post">
-								<div class="flip-box-front">
-									<div class="clearfix">
-										<img src="{{asset('assets/images/home/5.jpg')}}" alt="" class="author-img">
-										<div class="author-info">
-											<h6 class="name">Jannatul Ferdus.</h6>
-											<div class="date">07 Aug 2018</div>
-										</div>
-									</div>
-									<a href="#" class="title">Internet advertising what Went wrong.</a>
-									<p>Having a home based business is a wonderful asset to your life. The main problem time
-										advertise..</p>
-								</div> <!-- /.flip-box-front -->
-								<div class="flip-box-back">
-									<div class="author-info">
-										<h6 class="name">Jannatul Ferdus.</h6>
-										<div class="date">07 Aug 2018</div>
-									</div>
-									<a href="blog-details.html" class="title">Internet advertising what Went wrong.</a>
-									<a href="blog-details.html" class="more"><i class='flaticon-next-1'></i></a>
-								</div> <!-- /.flip-box-back -->
-							</div> <!-- /.single-blog-post -->
-						</div>
-	
-						<div class="item">
-							<div class="single-blog-post">
-								<div class="flip-box-front">
-									<div class="clearfix">
-										<img src="{{asset('assets/images/home/6.jpg')}}" alt="" class="author-img">
-										<div class="author-info">
-											<h6 class="name">Zubayer hasan.</h6>
-											<div class="date">05 Aug 2018</div>
-										</div>
-									</div>
-									<a href="#" class="title">Internet advertising what Went wrong.</a>
-									<p>Having a home based business is a wonderful asset to your life. The main problem time
-										advertise..</p>
-								</div> <!-- /.flip-box-front -->
-								<div class="flip-box-back">
-									<div class="author-info">
-										<h6 class="name">Zubayer hasan.</h6>
-										<div class="date">05 Aug 2018</div>
-									</div>
-									<a href="blog-details.html" class="title">Internet advertising what Went wrong.</a>
-									<a href="blog-details.html" class="more"><i class='flaticon-next-1'></i></a>
-								</div> <!-- /.flip-box-back -->
-							</div> <!-- /.single-blog-post -->
-						</div>
-					</div>
-				</div>
-			</div> <!-- /.our-blog-one -->
-
-
-
-
-
-
 
 @endsection

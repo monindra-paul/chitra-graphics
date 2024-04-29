@@ -11,4 +11,28 @@ class HomeController extends Controller
     {
         return view('frontend.home.home');
     }
+
+
+
+
+    public function about()
+    {
+        return view('frontend.pages.about');
+    }
+
+    public function courses()
+    {
+        return view('frontend.pages.courses');
+    }
+
+    public function gallery()
+    {
+        return view('frontend.pages.gallery');
+    }
+
+
+    public function contact()
+    {
+        return view('frontend.pages.contact');
+    }
 }

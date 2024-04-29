@@ -20,7 +20,7 @@
 	<meta name="msapplication-navbutton-color" content="#233D63">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#233D63">
-	<title>Rogan - Creative Multi-Purpose HTML Template</title>
+	<title>Chitra Graphics - Unleash Your Creativity, Design Your Future</title>
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="56x56" href="{{asset('assets/images/fav-icon/icon.png')}}">
 	<!-- Main style sheet -->

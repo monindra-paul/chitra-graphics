@@ -5,9 +5,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-sm-6 col-12 about-widget" data-aos="fade-up">
-					<a href="index.html" class="logo"><img src="{{asset('assets/images/logo/logo2.svg')}}" alt=""></a>
-					<a href="#" class="email">boga.inc@company.com</a>
-					<a href="#" class="phone">720.661.2231</a>
+					<a href="{{url('/')}}" class="logo"><img src="{{asset('assets/images/chitra/logo.png')}}" alt=""></a>
+					<a href="mailto:chitragraphichub@gmail.com" class="email">chitragraphichub@gmail.com</a>
+					<a href="tel:+91 89668 63416" class="phone">+91 89668 63416</a>
 
 				</div> <!-- /.about-widget -->
 				<div class="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list" data-aos="fade-up">
@@ -46,12 +46,8 @@
 	<div class="container">
 		<div class="bottom-footer">
 			<div class="clearfix">
-				<p>&copy; 2019 copyright all right reserved</p>
-				<ul>
-					<li><a href="#">Privace & Policy.</a></li>
-					<li><a href="faq.html">Faq.</a></li>
-					<li><a href="#">Terms.</a></li>
-				</ul>
+				<p>&copy; 2024 copyright all right reserved | Developed by <a href="https://ecoretechserv.com/" target="_blank">ECore TechServ</a> </p>
+				
 			</div>
 		</div> <!-- /.bottom-footer -->
 	</div>
