@@ -2581,7 +2581,7 @@ body .line-button-three:hover,
 /*---------------------- What We Do/SEO --------------------*/
 .seo-what-we-do {
   position: relative;
-  padding: 150px 0 100px;
+  padding: 100px 0 100px;
 }
 
 .seo-what-we-do .theme-title-one {
@@ -2639,6 +2639,22 @@ body .line-button-three:hover,
   background: #ff930e;
 }
 
+.seo-what-we-do .single-block:nth-child(5) .wrapper .icon-box {
+  background: #ff930e;
+}
+
+.seo-what-we-do .single-block:nth-child(6) .wrapper .icon-box {
+  background: #ff930e;
+}
+
+.seo-what-we-do .single-block:nth-child(7) .wrapper .icon-box {
+  background: #ff930e;
+}
+
+.seo-what-we-do .single-block:nth-child(8) .wrapper .icon-box {
+  background: #ff930e;
+}
+
 .seo-what-we-do .single-block .wrapper .icon-box:before,
 .seo-what-we-do .single-block .wrapper .icon-box:after {
   content: '';
@@ -2679,6 +2695,12 @@ body .line-button-three:hover,
 .seo-what-we-do .single-block:nth-child(4) .wrapper .icon-box:before,
 .seo-what-we-do .single-block:nth-child(4) .wrapper .icon-box:after {
   background: rgba(255, 147, 14, 0.5);
+}
+
+
+.seo-what-we-do .single-block:nth-child(5) .wrapper .icon-box:before,
+.seo-what-we-do .single-block:nth-child(5) .wrapper .icon-box:after {
+  background: rgba(16, 159, 0, 0.5);
 }
 
 .seo-what-we-do .single-block.active .wrapper .icon-box:after,
@@ -8773,7 +8795,7 @@ body .line-button-three:hover,
 .solid-inner-banner {
   background: #fafcff;
   text-align: center;
-  padding: 265px 0 0;
+  padding: 155px 0 0;
 }
 
 .solid-inner-banner.white-bg {

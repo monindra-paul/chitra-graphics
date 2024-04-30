@@ -56,6 +56,13 @@
 				              	<form class="form form-style-two" id="contact-form" action="#" data-toggle="validator">
 				                	<div class="messages"></div>
 				                	<div class="controls">
+
+										<div class="form-group">
+					                        <input id="form_email" type="text" name="name" placeholder="Your Name*" required="required" data-error="Valid Name is required.">
+					                        <div class="help-block with-errors"></div>
+					                    </div>
+
+
 					                    <div class="form-group">
 					                        <input id="form_email" type="email" name="email" placeholder="Email Address*" required="required" data-error="Valid email is required.">
 					                        <div class="help-block with-errors"></div>

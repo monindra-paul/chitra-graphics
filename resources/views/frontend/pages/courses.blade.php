@@ -3,65 +3,87 @@
 
 
 
-<div class="our-service-one pt-350 pos-r md-pt-140 md-pb-20 m0">
-    <div class="shape-wrapper">
-        <img src="images/shape/26.svg" alt="" class="shape-one img-shape">
-        <img src="images/shape/28.svg" alt="" class="shape-two img-shape">
-        <img src="images/shape/13.svg" alt="" class="shape-three img-shape">
-        <img src="images/shape/29.svg" alt="" class="shape-four img-shape">
-        <img src="images/shape/9.svg" alt="" class="shape-five img-shape">
-        <img src="images/shape/30.svg" alt="" class="shape-six img-shape">
-        <img src="images/shape/27.svg" alt="" class="shape-seven img-shape">
-        <img src="images/shape/31.svg" alt="" class="shape-eight img-shape">
-        <img src="images/shape/32.svg" alt="" class="shape-nine img-shape">
-    </div> <!-- /.shape-wrapper -->
-    <div class="container">
-        <div class="inner-wrapper pos-r">
-            <div class="theme-title-one">
-                <h2 class="main-title underline"><span>Let’s check our</span><br> <span>services.</span></h2>
-            </div> <!-- /.theme-title-one -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="feature-block-one mt-300 md-mt-50">
-                        <img src="images/icon/icon2.svg" alt="" class="img-icon">
-                        <h5 class="pt-30 pb-25 tran3s title">Digital Marketing</h5>
-                        <p class="tran3s">Lorem ipsum dolor si amet,  dusino situ  sint pertinac constituto, mir es dignsius quo great.</p>
-                        <a href="#" class="read-more tran3s"><i class="flaticon-next-1"></i></a>
-                    </div> <!-- /.feature-block-one -->
-                </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature-block-one mb-45 mt-85 md-mt-40">
-                        <img src="images/icon/icon3.svg" alt="" class="img-icon">
-                        <h5 class="pt-30 pb-25 tran3s title">SEO &amp; Backlinks.</h5>
-                        <p class="tran3s">Lorem ipsum dolor si amet,  dusino situ  sint pertinac constituto, mir es dignsius quo great.</p>
-                        <a href="#" class="read-more tran3s"><i class="flaticon-next-1"></i></a>
-                    </div> <!-- /.feature-block-one -->
-                    <div class="feature-block-one">
-                        <img src="images/icon/icon4.svg" alt="" class="img-icon">
-                        <h5 class="pt-30 pb-25 tran3s title">Marketing Analysis.</h5>
-                        <p class="tran3s">Lorem ipsum dolor si amet,  dusino situ  sint pertinac constituto, mir es dignsius quo great.</p>
-                        <a href="#" class="read-more tran3s"><i class="flaticon-next-1"></i></a>
-                    </div> <!-- /.feature-block-one -->
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature-block-one mb-45 md-mt-40">
-                        <img src="images/icon/icon5.svg" alt="" class="img-icon">
-                        <h5 class="pt-30 pb-25 tran3s title">Social Marketing.</h5>
-                        <p class="tran3s">Lorem ipsum dolor si amet,  dusino situ  sint pertinac constituto, mir es dignsius quo great.</p>
-                        <a href="#" class="read-more tran3s"><i class="flaticon-next-1"></i></a>
-                    </div> <!-- /.feature-block-one -->
-                    <div class="feature-block-one">
-                        <img src="images/icon/icon6.svg" alt="" class="img-icon">
-                        <h5 class="pt-30 pb-25 tran3s title">Content Marketing. </h5>
-                        <p class="tran3s">Lorem ipsum dolor si amet,  dusino situ  sint pertinac constituto, mir es dignsius quo great.</p>
-                        <a href="#" class="read-more tran3s"><i class="flaticon-next-1"></i></a>
-                    </div> <!-- /.feature-block-one -->
-                </div>
-            </div>
-        </div>
-    </div> <!-- /.container -->
-</div>
+<div class="solid-inner-banner">
+    <h2 class="page-title">Our Courses</h2>
+    
+</div> <!-- /.solid-inner-banner -->
+
+
+
+	<!-- 
+			=============================================
+				What WE Do
+			============================================== 
+			-->
+			<div class="seo-what-we-do">
+				<div class="container">
+					<div class="theme-title-one text-center">
+                        <h2 class="main-title">Fundamentals of  <br>Advance Graphic & Textile Design </h2>
+                    </div> <!-- /.theme-title-one -->
+
+					<div class="row">
+						<div class="col-lg-4 col-sm-6 single-block" data-aos="fade-up">
+							<div class="wrapper">
+								<div class="icon-box"><img src="{{asset('assets/images/icon/icon4.svg')}}" alt=""></div>
+								<a href="#" class="title">Colour Theory</a>
+							</div> <!-- /.wrapper -->
+						</div> <!-- /.single-block -->
+						<div class="col-lg-4 col-sm-6 single-block " data-aos="fade-up" data-aos-delay="300">
+							<div class="wrapper">
+								<div class="icon-box"><img src="{{asset('assets/images/icon/icon5.svg')}}" alt=""></div>
+								<a href="#" class="title">CMYK Process</a>
+							</div> <!-- /.wrapper -->
+						</div> <!-- /.single-block -->
+						<div class="col-lg-4 col-sm-6 single-block" data-aos="fade-up" data-aos-delay="400">
+							<div class="wrapper">
+								<div class="icon-box"><img src="{{asset('assets/images/icon/icon6.svg')}}" alt=""></div>
+								<a href="#" class="title">Image Illustration</a>
+							</div> <!-- /.wrapper -->
+						</div> <!-- /.single-block -->
+						<div class="col-lg-4 col-sm-6 single-block" data-aos="fade-up" data-aos-delay="500">
+							<div class="wrapper">
+								<div class="icon-box"><img src="{{asset('assets/images/icon/icon7.svg')}}" alt=""></div>
+								<a href="#" class="title">Colour Creating Channel</a>
+							</div> <!-- /.wrapper -->
+						</div> <!-- /.single-block -->
+                        <div class="col-lg-4 col-sm-6 single-block" data-aos="fade-up" data-aos-delay="600">
+							<div class="wrapper">
+								<div class="icon-box"><img src="{{asset('assets/images/icon/icon8.svg')}}" alt=""></div>
+								<a href="#" class="title">Textile Fabric Printing</a>
+							</div> <!-- /.wrapper -->
+						</div> <!-- /.single-block --> 
+                        <div class="col-lg-4 col-sm-6 single-block" data-aos="fade-up" data-aos-delay="600">
+							<div class="wrapper">
+								<div class="icon-box"><img src="{{asset('assets/images/icon/icon9.svg')}}" alt=""></div>
+								<a href="#" class="title">Image Creation & Editing</a>
+							</div> <!-- /.wrapper -->
+						</div> <!-- /.single-block --> 
+                        <div class="col-lg-4 col-sm-6 single-block" data-aos="fade-up" data-aos-delay="600">
+							<div class="wrapper">
+								<div class="icon-box"><img src="{{asset('assets/images/icon/icon10.svg')}}" alt=""></div>
+								<a href="#" class="title">Textile Desiign for Printing</a>
+							</div> <!-- /.wrapper -->
+						</div> <!-- /.single-block -->
+                        <div class="col-lg-4 col-sm-6 single-block" data-aos="fade-up" data-aos-delay="600">
+							<div class="wrapper">
+								<div class="icon-box"><img src="{{asset('assets/images/icon/icon11.svg')}}" alt=""></div>
+								<a href="#" class="title">Brand Identity Design</a>
+							</div> <!-- /.wrapper -->
+						</div> <!-- /.single-block -->
+                        <div class="col-lg-4 col-sm-6 single-block" data-aos="fade-up" data-aos-delay="600">
+							<div class="wrapper">
+								<div class="icon-box"><img src="{{asset('assets/images/icon/icon10.svg')}}" alt=""></div>
+								<a href="#" class="title">Photoshop & Coreldraw & Canva</a>
+							</div> <!-- /.wrapper -->
+						</div> <!-- /.single-block -->
+                        
+					</div>
+
+                  
+
+				</div> <!-- /.container -->
+			</div> <!-- /.seo-what-we-do -->
 
 
 

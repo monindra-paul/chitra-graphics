@@ -20,7 +20,7 @@ class HomeController extends Controller
         return view('frontend.pages.about');
     }
 
-    public function courses()
+    public function course()
     {
         return view('frontend.pages.courses');
     }

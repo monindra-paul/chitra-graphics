@@ -8,8 +8,14 @@
 			============================================== 
 			-->
 			<div id="theme-banner-one">
+				
 				<div class="illustration wow zoomIn animated" data-wow-delay="1s" data-wow-duration="2s">
-					<img src="{{asset('assets/images/shape/banner-shape1.svg')}}" alt="">
+
+
+					
+
+
+					 <img src="{{asset('assets/images/shape/banner-shape1.svg')}}" alt="">
 					<img src="{{asset('assets/images/shape/banner-shape2.svg')}}" alt="" class="shape-one wow fadeInDown animated"
 						data-wow-delay="1.8s">
 					<img src="{{asset('assets/images/shape/banner-shape3.svg')}}" alt="" class="shape-two wow fadeInUp animated"
@@ -27,20 +33,17 @@
 				<img src="{{asset('assets/images/shape/shape-62.svg')}}" alt="" class="shape-eleven">
 				<div class="container">
 					<div class="main-wrapper">
-						<div class="slogan wow fadeInDown animated" data-wow-delay="0.2s"><span>70% Off</span> for first 3
-							months</div>
-						<h1 class="main-title wow fadeInUp animated" data-wow-delay="0.4s">Digital Agency <br>with
-							Excellence <br>Services.</h1>
-						<p class="sub-title wow fadeInUp animated" data-wow-delay="0.9s">The 3 golden rules professional
-							graphic designer don’t <br> want you to know about.</p>
+						<div class="slogan wow fadeInDown animated" data-wow-delay="0.2s"><span>Chitra Graphics</span> </div>
+						<h1 class="main-title wow fadeInUp animated" data-wow-delay="0.4s">Welcome to <br>Chitra Graphics</h1>
+						<p class="sub-title wow fadeInUp animated" data-wow-delay="0.9s">. We are the leading graphic design institute based in Tarakeswar,<br> specializing in Advanced Graphic Design. </p>
 						<ul class="button-group lightgallery">
-							<li><a href="about-us-standard.html"
+							<li><a href="{{url('/about-us')}}"
 									class="more-button solid-button-one wow fadeInLeft animated" data-wow-delay="1.5s">More
 									About us <i class="fa fa-angle-right icon-right" aria-hidden="true"></i></a></li>
 	
-							<li><a data-fancybox href="https://www.youtube.com/embed/aXFSJTjVjw0"
+							{{-- <li><a data-fancybox href="#"
 									class="fancybox video-button-one wow fadeInRight animated" data-wow-delay="1.5s">See
-									live demo. <i class="flaticon-play-button icon-right"></i></a></li>
+									live demo. <i class="flaticon-play-button icon-right"></i></a></li> --}}
 						</ul>
 					</div> <!-- /.main-wrapper -->
 				</div> <!-- /.container -->
@@ -69,9 +72,9 @@
 									<img src="{{asset('assets/images/icon/icon1.svg')}}" alt="" class="shape" data-aos="zoom-in-down">
 								</div>
 								<h5 class="title">Strategy & Research.</h5>
-								<p>Lorem ipsum dolor si amet, an dus situ sint pertinacia constituto, mir dignsius quo
+								{{-- <p>Lorem ipsum dolor si amet, an dus situ sint pertinacia constituto, mir dignsius quo
 									great.</p>
-								<a href="#" class="more-button">More About Strategy & Research</a>
+								<a href="#" class="more-button">More About Strategy & Research</a> --}}
 							</div> <!-- /.single-block -->
 						</div>
 	
@@ -82,9 +85,9 @@
 									<img src="{{asset('assets/images/icon/icon2.svg')}}" alt="" class="shape" data-aos="zoom-in-down">
 								</div>
 								<h5 class="title">Design & Development.</h5>
-								<p>Lorem ipsum dolor si amet, an dus situ sint pertinacia constituto, mir dignsius quo
+								{{-- <p>Lorem ipsum dolor si amet, an dus situ sint pertinacia constituto, mir dignsius quo
 									great.</p>
-								<a href="#" class="more-button">More About Design & Development</a>
+								<a href="#" class="more-button">More About Design & Development</a> --}}
 							</div> <!-- /.single-block -->
 						</div>
 	
@@ -95,9 +98,9 @@
 									<img src="{{asset('assets/images/icon/icon3.svg')}}" alt="" class="shape" data-aos="zoom-in-down">
 								</div>
 								<h5 class="title">Managment & Marketing.</h5>
-								<p>Lorem ipsum dolor si amet, an dus situ sint pertinacia constituto, mir dignsius quo
+								{{-- <p>Lorem ipsum dolor si amet, an dus situ sint pertinacia constituto, mir dignsius quo
 									great.</p>
-								<a href="#" class="more-button">More About Managment & Marketing</a>
+								<a href="#" class="more-button">More About Managment & Marketing</a> --}}
 							</div> <!-- /.single-block -->
 						</div>
 					</div>
@@ -114,8 +117,8 @@
 			<div class="our-service service-minimal pt-150 pb-100">
 				<div class="container">
 					<div class="theme-title-three text-center mb-200">
-						<h2 class="title">We’v been providing our services with proud since 1980.</h2>
-						<p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+						<h2 class="title">Why you should invsest in our course</h2>
+						{{-- <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p> --}}
 					</div> <!-- /.theme-title-three -->
 
 					<div class="demo-container-1100">
@@ -229,6 +232,77 @@
 			</div> <!-- /.agn-counter-section -->
 	
 	
+
+
+
+			
+			<!--
+			=====================================================
+				Partner Section
+			=====================================================
+			-->
+			<div class="op-partner-section-one">
+				<div class="container">
+					<div class="theme-title-one text-center">
+						<h2 class="main-title mb-5">Our Placement Partners</h2>
+					</div> <!-- /.theme-title-one -->
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-6">
+							<div class="img-box bx-a">
+								<a href="#"><img src="{{asset('assets/images/logo/p-1.png')}}" alt=""></a>
+							</div> <!-- /.img-box -->
+						</div>
+						<div class="col-lg-2 col-md-4 col-6">
+							<div class="img-box bx-b">
+								<a href="#"><img src="{{asset('assets/images/logo/p-2.png')}}" alt=""></a>
+							</div> <!-- /.img-box -->
+						</div>
+						<div class="col-lg-3 col-md-4 col-6">
+							<div class="img-box bx-c">
+								<a href="#"><img src="{{asset('assets/images/logo/p-3.png')}}" alt=""></a>
+							</div> <!-- /.img-box -->
+						</div>
+						<div class="col-xl-2 col-lg-3 col-md-4 col-6">
+							<div class="img-box bx-d">
+								<a href="#"><img src="{{asset('assets/images/logo/p-4.png')}}" alt=""></a>
+							</div> <!-- /.img-box -->
+						</div>
+						<div class="col-xl-2 col-lg-3 col-md-4 col-6">
+							<div class="img-box bx-e">
+								<a href="#"><img src="{{asset('assets/images/logo/p-5.png')}}" alt=""></a>
+							</div> <!-- /.img-box -->
+						</div>
+						<div class="col-xl-4 col-lg-2 col-md-4 col-6">
+							<div class="img-box bx-f">
+								<a href="#"><img src="{{asset('assets/images/logo/p-6.png')}}" alt=""></a>
+							</div> <!-- /.img-box -->
+						</div>
+						<div class="col-xl-2 col-lg-3 col-md-4 col-6">
+							<div class="img-box bx-g">
+								<a href="#"><img src="{{asset('assets/images/logo/p-7.png')}}" alt=""></a>
+							</div> <!-- /.img-box -->
+						</div>
+						<div class="col-xl-3 col-lg-3 col-md-4 col-6">
+							<div class="img-box bx-h">
+								<a href="#"><img src="{{asset('assets/images/logo/p-8.png')}}" alt=""></a>
+							</div> <!-- /.img-box -->
+						</div>
+						<div class="col-xl-3 col-lg-11 col-md-4 col-6">
+							<div class="img-box bx-i">
+								<a href="#"><img src="{{asset('assets/images/logo/p-9.png')}}" alt=""></a>
+							</div> <!-- /.img-box -->
+						</div>
+					</div>
+				</div>
+			</div> <!-- /.op-partner-section-one -->
+
+
+
+
+
+
+
+
 			<!-- 
 				=============================================
 					Our Gallery
