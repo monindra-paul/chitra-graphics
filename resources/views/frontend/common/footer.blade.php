@@ -7,32 +7,29 @@
 				<div class="col-lg-3 col-sm-6 col-12 about-widget" data-aos="fade-up">
 					<a href="{{url('/')}}" class="logo"><img src="{{asset('assets/images/chitra/logo.png')}}" alt=""></a>
 					<a href="mailto:chitragraphichub@gmail.com" class="email">chitragraphichub@gmail.com</a>
-					<a href="tel:+91 89668 63416" class="phone">+91 89668 63416</a>
+					<a href="tel:+91  7439495482" class="phone">+91  7439495482</a>
 
 				</div> <!-- /.about-widget -->
 				<div class="col-lg-3 col-lg-3 col-sm-6 col-12 footer-list" data-aos="fade-up">
-					<h5 class="title">Services</h5>
+					<h5 class="title">Pages</h5>
 					<ul>
-						<li><a href="#">Web Design</a></li>
-						<li><a href="#">Development</a></li>
-						<li><a href="#">Wordpress</a></li>
-						<li><a href="#">Online Marketing</a></li>
-						<li><a href="#">Content</a></li>
+						<li><a href="{{url('/')}}">Home</a></li>
+						<li><a href="{{url('/about-us')}}">About Us</a></li>
+						<li><a href="{{url('/courses')}}">Courses</a></li>
+						
 					</ul>
 				</div> <!-- /.footer-recent-post -->
 				<div class="col-lg-3 col-sm-6 col-12 footer-list" data-aos="fade-up">
-					<h5 class="title">About us</h5>
+					<h5 class="title">Pages</h5>
 					<ul>
-						<li><a href="about-us-standard.html">About us</a></li>
-						<li><a href="project-standard.html">Work Portfolio</a></li>
-						<li><a href="team-standard.html">Team</a></li>
-						<li><a href="#">Plan & Pricing</a></li>
-						<li><a href="blog-default.html">News</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="{{url('/gallery')}}">Gallery</a></li>
+						<li><a href="{{url('/contact-us')}}">Contact Us</a></li>
 					</ul>
 				</div> <!-- /.footer-list -->
 				<div class="col-lg-3 col-lg-2 col-sm-6 col-12 footer-information" data-aos="fade-up">
 					<h5 class="title">Our Address</h5>
-					<p>00 Orville Road Apt. 728 <br>California, USA</p>
+					<p>Near Tarakeswar Boys school, Tarakeswar, Hooghly, 712410</p>
 					<ul>
 						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>

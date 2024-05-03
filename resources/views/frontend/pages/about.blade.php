@@ -28,7 +28,7 @@
 							<div class="text-wrapper">
 								<div class="theme-title-one">
 									<div class="upper-title">About us</div>
-									<h2 class="main-title">Leading Digital Agency for Business Solution.</h2>
+									<h2 class="main-title">Leading graphics designing institute in Tarakeswar.</h2>
 								</div> <!-- /.theme-title-one -->
 								<p>"Welcome to Chitra Graphic & Textile Hub. We are the leading
 									graphic design institute based in Tarakeswar, specializing in
@@ -41,20 +41,20 @@
 									numerous garments and textiles companies, and they actively
 									hire candidates based on their job roles."
 									</p>
-								<p class="quote">Lorem ipsum dolor sit amet, hendrerit omittantur mel et, est ut vidit
-									animal iracundia luis.</p>
-								<div class="author"><span class="name">Rashed Kabir, </span>CEO CreativeGigs</div>
-								<img src="{{asset('assets/images/shape/signature.png')}}" alt="">
+								{{-- <p class="quote">Lorem ipsum dolor sit amet, hendrerit omittantur mel et, est ut vidit
+									animal iracundia luis.</p> --}}
+								{{-- <div class="author"><span class="name">Rashed Kabir, </span>CEO CreativeGigs</div>
+								<img src="{{asset('assets/images/shape/signature.png')}}" alt=""> --}}
 							</div>
 						</div>
 						<div class="col-lg-6 order-lg-first">
 							<div class="img-box">
-								<img src="{{asset('assets/images/home/1.jpg')}}" alt="" class="main-img">
+								<img src="{{asset('assets/images/chitra/about.webp')}}" alt="" class="main-img">
 							</div>
 						</div>
 					</div>
 				</div> <!-- /.container -->
-				<a href="about-us-agency.html" class="learn-more theme-button-two" data-aos="fade-left">Learn More <i
+				<a href="{{url('/contact-us')}}" class="learn-more theme-button-two" data-aos="fade-left">Contact Us<i
 						class="fa fa-angle-right icon-right" aria-hidden="true"></i></a>
 			</div> <!-- /.agn-about-us -->
 

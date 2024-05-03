@@ -35,7 +35,7 @@
 					<div class="main-wrapper">
 						<div class="slogan wow fadeInDown animated" data-wow-delay="0.2s"><span>Chitra Graphics</span> </div>
 						<h1 class="main-title wow fadeInUp animated" data-wow-delay="0.4s">Welcome to <br>Chitra Graphics</h1>
-						<p class="sub-title wow fadeInUp animated" data-wow-delay="0.9s">. We are the leading graphic design institute based in Tarakeswar,<br> specializing in Advanced Graphic Design. </p>
+						<p class="sub-title wow fadeInUp animated" data-wow-delay="0.9s"> We are the leading graphic design institute based in Tarakeswar,<br> specializing in Advanced Graphic Design. </p>
 						<ul class="button-group lightgallery">
 							<li><a href="{{url('/about-us')}}"
 									class="more-button solid-button-one wow fadeInLeft animated" data-wow-delay="1.5s">More
@@ -55,58 +55,7 @@
 					What WE Do
 				============================================== 
 				-->
-			<div class="agn-what-we-do pt-150 pb-200">
-				<img src="{{asset('assets/images/shape/shape-63.svg')}}" alt="" class="shape-one" data-aos="fade-right">
-				<img src="{{asset('assets/images/shape/shape-56.svg')}}" alt="" class="shape-two">
-				<div class="container">
-					<div class="theme-title-one text-center">
-						<div class="upper-title">What We Do</div>
-						<h2 class="main-title">The things motivates me is common <br>form of motivation.</h2>
-					</div> <!-- /.theme-title-one -->
-	
-					<div class="row">
-						<div class="col-lg-4 col-md-6">
-							<div class="single-block">
-								<div class="icon">
-									<img src="{{asset('assets/images/shape/shape-2.svg')}}" alt="" class="bg">
-									<img src="{{asset('assets/images/icon/icon1.svg')}}" alt="" class="shape" data-aos="zoom-in-down">
-								</div>
-								<h5 class="title">Strategy & Research.</h5>
-								{{-- <p>Lorem ipsum dolor si amet, an dus situ sint pertinacia constituto, mir dignsius quo
-									great.</p>
-								<a href="#" class="more-button">More About Strategy & Research</a> --}}
-							</div> <!-- /.single-block -->
-						</div>
-	
-						<div class="col-lg-4 col-md-6">
-							<div class="single-block">
-								<div class="icon">
-									<img src="{{asset('assets/images/shape/shape-2.svg')}}" alt="" class="bg">
-									<img src="{{asset('assets/images/icon/icon2.svg')}}" alt="" class="shape" data-aos="zoom-in-down">
-								</div>
-								<h5 class="title">Design & Development.</h5>
-								{{-- <p>Lorem ipsum dolor si amet, an dus situ sint pertinacia constituto, mir dignsius quo
-									great.</p>
-								<a href="#" class="more-button">More About Design & Development</a> --}}
-							</div> <!-- /.single-block -->
-						</div>
-	
-						<div class="col-lg-4 co-12 d-md-none d-lg-block">
-							<div class="single-block">
-								<div class="icon">
-									<img src="{{asset('assets/images/shape/shape-2.svg')}}" alt="" class="bg">
-									<img src="{{asset('assets/images/icon/icon3.svg')}}" alt="" class="shape" data-aos="zoom-in-down">
-								</div>
-								<h5 class="title">Managment & Marketing.</h5>
-								{{-- <p>Lorem ipsum dolor si amet, an dus situ sint pertinacia constituto, mir dignsius quo
-									great.</p>
-								<a href="#" class="more-button">More About Managment & Marketing</a> --}}
-							</div> <!-- /.single-block -->
-						</div>
-					</div>
-				</div> <!-- /.container -->
-			</div> <!-- /.agn-what-we-do -->
-	
+
 	
 			
 			<!-- 
@@ -119,6 +68,7 @@
 					<div class="theme-title-three text-center mb-200">
 						<h2 class="title">Why you should invsest in our course</h2>
 						{{-- <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p> --}}
+						<a href="{{route('courses')}}" class="contact solid-button-one mt-3">Our Courses</a>
 					</div> <!-- /.theme-title-three -->
 
 					<div class="demo-container-1100">
@@ -128,7 +78,7 @@
 									<div class="icon-box"><img src="{{asset('assets/images/icon/icon48.svg')}}" alt=""></div>
 									<h2 class="service-title"><a href="{{route('courses')}}">Project Based, Live Learning</a></h2>
 									<p>Become job ready by applying what you learn and build real life projects.</p>
-									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+									<a href="{{route('courses')}}" class="read-more"><i class="flaticon-next-1"></i></a>
 								</div> <!-- /.service-block -->
 							</div>
 							<div class="col-lg-6">
@@ -136,7 +86,7 @@
 									<div class="icon-box"><img src="{{asset('assets/images/icon/icon49.svg')}}" alt=""></div>
 									<h2 class="service-title"><a href="{{route('courses')}}">Dedicated career services.</a></h2>
 									<p>Resume & interview praps with industry experts & exclusive job board.</p>
-									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+									<a href="{{route('courses')}}" class="read-more"><i class="flaticon-next-1"></i></a>
 								</div> <!-- /.service-block -->
 							</div>
 							<div class="col-lg-6">
@@ -144,7 +94,7 @@
 									<div class="icon-box"><img src="{{asset('assets/images/icon/icon50.svg')}}" alt=""></div>
 									<h2 class="service-title"><a href="{{route('courses')}}">100% Placement Assistance</a></h2>
 									<p>We have Dedicated job/Placeman! Team Who Help Students Get a Better</p>
-									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+									<a href="{{route('courses')}}" class="read-more"><i class="flaticon-next-1"></i></a>
 								</div> <!-- /.service-block -->
 							</div>
 							<div class="col-lg-6">
@@ -152,23 +102,23 @@
 									<div class="icon-box"><img src="{{asset('assets/images/icon/icon51.svg')}}" alt=""></div>
 									<h2 class="service-title"><a href="{{route('courses')}}">Certificate After Completion</a></h2>
 									<p>Get Certified Alter Completion of Our Courses</p>
-									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+									<a href="{{route('courses')}}" class="read-more"><i class="flaticon-next-1"></i></a>
 								</div> <!-- /.service-block -->
 							</div>
 							<div class="col-lg-6">
 								<div class="service-block" data-aos="fade-up">
-									<div class="icon-box"><img src="{{asset('assets/images/icon/icon52.svg')}}" alt=""></div>
+									<div class="icon-box"><img src="{{asset('assets/images/icon/icon53.svg')}}" alt=""></div>
 									<h2 class="service-title"><a href="{{route('courses')}}">FREE Videos & PDFs</a></h2>
 									<p>Get All The Resources of all Course Absolutely FREE.</p>
-									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+									<a href="{{route('courses')}}" class="read-more"><i class="flaticon-next-1"></i></a>
 								</div> <!-- /.service-block -->
 							</div>
 							<div class="col-lg-6">
 								<div class="service-block" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon-box"><img src="{{asset('assets/images/icon/icon53.svg')}}" alt=""></div>
+									<div class="icon-box"><img src="{{asset('assets/images/icon/icon52.svg')}}" alt=""></div>
 									<h2 class="service-title"><a href="{{route('courses')}}">Low Cost, High Value</a></h2>
 									<p>You will get all Premium courses with Lowest Prices</p>
-									<a href="#" class="read-more"><i class="flaticon-next-1"></i></a>
+									<a href="{{route('courses')}}" class="read-more"><i class="flaticon-next-1"></i></a>
 								</div> <!-- /.service-block -->
 							</div>
 						</div> <!-- /.row -->

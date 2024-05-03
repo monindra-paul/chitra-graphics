@@ -46,7 +46,7 @@
 				</nav> <!-- /#mega-menu-holder -->
 				<div class="header-right-widget">
 					<ul>
-						<li class="call-us">Call Us <a href="+91 89668 63416">+91 89668 63416</a></li>
+						<li class="call-us">Call Us <a href="+917439495482">+91 7439495482</a></li>
 						
 						<li><a href="{{route('contact')}}" class="contact-us white-shdw-button">Contact Us <i
 									class="icon flaticon-next"></i></a></li>

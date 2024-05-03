@@ -15,14 +15,14 @@
 							<div class="address-block">
 								<div class="icon-box"><img src="{{asset('assets/images/icon/icon59.svg')}}" alt=""></div>
 								<h5>Our Location</h5>
-								<p>Danmondi, 7563 King Meadow <br>Suite 896, USA</p>
+								<p>Near Tarakeswar Boys school, Tarakeswar, Hooghly, 712410</p>
 							</div> <!-- /.address-block -->
 						</div> <!-- /.col- -->
 						<div class="col-lg-4">
 							<div class="address-block">
 								<div class="icon-box"><img src="{{asset('assets/images/icon/icon60.svg')}}" alt=""></div>
 								<h5>Email & Phone</h5>
-								<p><a href="mailto:chitragraphichub@gmail.com">chitragraphichub@gmail.com</a> <br><a href="tel:+918966863416">+91 89668 63416</a></p>
+								<p><a href="mailto:chitragraphichub@gmail.com">chitragraphichub@gmail.com</a> <br><a href="tel:+91  7439495482">+91  7439495482</a></p>
 							</div> <!-- /.address-block -->
 						</div> <!-- /.col- -->
 						<div class="col-lg-4">
@@ -87,7 +87,7 @@
 							<div class="contact-info">
 								<h2 class="title">Don’t Hesitate to contact with us for any kind of information</h2>
 								<p>Call us for imidiate support to this number</p>
-								<a href="tel:+91 89668 63416" class="call">+91 89668 63416</a>
+								<a href="tel:+91  7439495482" class="call">+91  7439495482</a>
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -103,7 +103,7 @@
 			
 
 	<!-- Google Map -->
-    <div id="google-map-two"><div class="map-canvas"></div></div>
+    <div id="google-map-two"><div class="map-canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3675.817352264958!2d88.01401367530968!3d22.883204579271585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDUyJzU5LjUiTiA4OMKwMDAnNTkuNyJF!5e0!3m2!1sen!2sin!4v1714722226354!5m2!1sen!2sin" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div>
 
 
 
