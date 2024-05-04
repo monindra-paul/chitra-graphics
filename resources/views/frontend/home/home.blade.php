@@ -199,49 +199,30 @@
 					<div class="row">
 						<div class="col-lg-3 col-md-4 col-6">
 							<div class="img-box bx-a">
-								<a href="#"><img src="{{asset('assets/images/logo/p-1.png')}}" alt=""></a>
+								<a href="#"><img src="{{asset('assets/images/chitra/1.webp')}}" alt=""></a>
 							</div> <!-- /.img-box -->
 						</div>
 						<div class="col-lg-2 col-md-4 col-6">
 							<div class="img-box bx-b">
-								<a href="#"><img src="{{asset('assets/images/logo/p-2.png')}}" alt=""></a>
+								<a href="#"><img src="{{asset('assets/images/chitra/2.webp')}}" alt=""></a>
 							</div> <!-- /.img-box -->
 						</div>
 						<div class="col-lg-3 col-md-4 col-6">
 							<div class="img-box bx-c">
-								<a href="#"><img src="{{asset('assets/images/logo/p-3.png')}}" alt=""></a>
+								<a href="#"><img src="{{asset('assets/images/chitra/3.webp')}}" alt=""></a>
 							</div> <!-- /.img-box -->
 						</div>
 						<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 							<div class="img-box bx-d">
-								<a href="#"><img src="{{asset('assets/images/logo/p-4.png')}}" alt=""></a>
+								<a href="#"><img src="{{asset('assets/images/chitra/4.webp')}}" alt=""></a>
 							</div> <!-- /.img-box -->
 						</div>
 						<div class="col-xl-2 col-lg-3 col-md-4 col-6">
 							<div class="img-box bx-e">
-								<a href="#"><img src="{{asset('assets/images/logo/p-5.png')}}" alt=""></a>
+								<a href="#"><img src="{{asset('assets/images/chitra/5.webp')}}" alt=""></a>
 							</div> <!-- /.img-box -->
 						</div>
-						<div class="col-xl-4 col-lg-2 col-md-4 col-6">
-							<div class="img-box bx-f">
-								<a href="#"><img src="{{asset('assets/images/logo/p-6.png')}}" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-						<div class="col-xl-2 col-lg-3 col-md-4 col-6">
-							<div class="img-box bx-g">
-								<a href="#"><img src="{{asset('assets/images/logo/p-7.png')}}" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-						<div class="col-xl-3 col-lg-3 col-md-4 col-6">
-							<div class="img-box bx-h">
-								<a href="#"><img src="{{asset('assets/images/logo/p-8.png')}}" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
-						<div class="col-xl-3 col-lg-11 col-md-4 col-6">
-							<div class="img-box bx-i">
-								<a href="#"><img src="{{asset('assets/images/logo/p-9.png')}}" alt=""></a>
-							</div> <!-- /.img-box -->
-						</div>
+						
 					</div>
 				</div>
 			</div> <!-- /.op-partner-section-one -->
