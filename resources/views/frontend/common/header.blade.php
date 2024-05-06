@@ -28,7 +28,7 @@
 									
 								</li>
 								<li class="nav-item dropdown position-relative">
-									<a class="nav-link dropdown-toggle" href="#"  >Portfolio</a>
+									<a class="nav-link dropdown-toggle" href="https://drive.google.com/file/d/198qiObTr-CRNeIJdmmTkRrt5cXbHlYTi/view?usp=sharing"  target="_blank" >Portfolio</a>
 									
 								</li>
 								<li class="nav-item dropdown position-relative">
