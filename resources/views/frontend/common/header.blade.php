@@ -24,16 +24,14 @@
 									
 								</li>
 								<li class="nav-item dropdown position-relative">
-									<a class="nav-link dropdown-toggle" href="{{route('courses')}}"  >Course</a>
-									
+									<a class="nav-link dropdown-toggle" href="{{route('courses')}}"  >Course</a>									
 								</li>
 								<li class="nav-item dropdown position-relative">
 									<a class="nav-link dropdown-toggle" href="https://drive.google.com/file/d/1H681hBXrju6uZQMju12fj8t1u6UXCunX/view?usp=sharing"  target="_blank" >Portfolio</a>
 									
 								</li>
 								<li class="nav-item dropdown position-relative">
-									<a class="nav-link dropdown-toggle" href="{{route('gallery')}}"  >Gallery</a>
-									
+									<a class="nav-link dropdown-toggle" href="{{route('gallery')}}"  >Gallery</a>									
 								</li>
 								<li class="nav-item dropdown position-relative">
 									<a class="nav-link dropdown-toggle" href="{{route('contact')}}"  >Contact</a>

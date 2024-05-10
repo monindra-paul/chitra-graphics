@@ -63,7 +63,7 @@
 				Our Service Minimal
 			============================================== 
 			-->
-			<div class="our-service service-minimal pt-150 pb-100">
+			<div class="our-service service-minimal pt-150 ">
 				<div class="container">
 					<div class="theme-title-three text-center mb-200">
 						<h2 class="title">Why you should invsest in our course</h2>
@@ -133,7 +133,7 @@
 				============================================== 
 				-->
 			<div class="agn-counter-section">
-				<img src="{{asset('assets/images/shape/shape-55.svg')}}" alt="" class="shape-one">
+				{{-- <img src="{{asset('assets/images/shape/shape-55.svg')}}" alt="" class="shape-one">
 				<img src="{{asset('assets/images/shape/shape-59.svg')}}" alt="" class="shape-two">
 				<img src="{{asset('assets/images/shape/shape-61.svg')}}" alt="" class="shape-three">
 				<div class="container">
@@ -167,8 +167,8 @@
 								</div>
 							</div>
 						</div> <!-- /.counter-wrapper -->
-					</div> <!-- /.main-wrapper -->
-	
+					</div> <!-- /.main-wrapper --> --}}
+{{-- 	
 					<div class="bottom-banner">
 						<div class="clearfix">
 							<div class="text">
@@ -179,7 +179,7 @@
 						</div>
 					</div>
 				</div> <!-- /.container -->
-			</div> <!-- /.agn-counter-section -->
+			</div> <!-- /.agn-counter-section --> --}}
 	
 	
 
@@ -250,40 +250,49 @@
 					</div> <!-- /.theme-title-one -->
 				</div> <!-- /.container -->
 				<div class="main-wrapper">
-					<a href="product-full-width.html" class="view-gallery">View Gallery</a>
+					<a href="{{url('/gallery')}}" class="view-gallery">View Gallery</a>
 					<div class="gallery-slider lightgallery">
 						<div class="item">
 							<div class="img-box">
-								<img src="{{asset('assets/images/portfolio/1.jpg')}}" alt="">
+								<img src="{{asset('assets/images/chitra/sw/1.webp')}}" alt="">
 								<div class="hover-content">
-									<a href="images/portfolio/1.jpg" class="icon zoom fancybox" data-fancybox="images"
+									<a href="{{asset('assets/images/chitra/sw/1.webp')}}" class="icon zoom fancybox" data-fancybox="images"
 										data-caption="My caption">+</a>
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="img-box">
-								<img src="{{asset('assets/images/portfolio/2.jpg')}}" alt="">
+								<img src="{{asset('assets/images/chitra/sw/2.webp')}}" alt="">
 								<div class="hover-content">
-									<a href="{{asset('assets/images/portfolio/2.jpg')}}" class="icon zoom fancybox" data-fancybox="images"
+									<a href="{{asset('assets/images/chitra/sw/2.webp')}}" class="icon zoom fancybox" data-fancybox="images"
 										data-caption="My caption">+</a>
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="img-box">
-								<img src="{{asset('assets/images/portfolio/3.jpg')}}" alt="">
+								<img src="{{asset('assets/images/chitra/sw/3.webp')}}" alt="">
 								<div class="hover-content">
-									<a href="{{asset('assets/images/portfolio/3.jpg')}}" class="icon zoom fancybox" data-fancybox="images"
+									<a href="{{asset('assets/images/chitra/sw/3.webp')}}" class="icon zoom fancybox" data-fancybox="images"
 										data-caption="My caption">+</a>
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="img-box">
-								<img src="{{asset('assets/images/portfolio/4.jpg')}}" alt="">
+								<img src="{{asset('assets/images/chitra/sw/6.webp')}}" alt="">
 								<div class="hover-content">
-									<a href="{{asset('assets/images/portfolio/4.jpg')}}" class="icon zoom fancybox" data-fancybox="images"
+									<a href="{{asset('assets/images/chitra/sw/6.webp')}}" class="icon zoom fancybox" data-fancybox="images"
+										data-caption="My caption">+</a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="img-box">
+								<img src="{{asset('assets/images/chitra/sw/5.webp')}}" alt="">
+								<div class="hover-content">
+									<a href="{{asset('assets/images/chitra/sw/5.webp')}}" class="icon zoom fancybox" data-fancybox="images"
 										data-caption="My caption">+</a>
 								</div>
 							</div>
@@ -322,28 +331,19 @@
 	
 						<div class="agn-testimonial-slider">
 							<div class="item">
-								<p>Having a home based business is a wonderful asset to your life. The problem still stands,
-									when it comes timeadvertise your business for a cheap cost. I know you have looked for
-									to answer everywhere; I am here to share a few simple creative ways,</p>
-								<div class="author-info clearfix">
-									<img src="{{asset('assets/images/home/2.jpg')}}" alt="" class="author-img">
-									<div class="name-info">
-										<h6 class="name">Rashed kabir</h6>
-										<span>Designer</span>
-									</div>
-								</div>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/amCobD7er4A?si=VirGsSb7IUDXLbRE" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 							</div>
 							<div class="item">
-								<p>Having a home based business is a wonderful asset to your life. The problem still stands,
-									when it comes timeadvertise your business for a cheap cost. I know you have looked for
-									to answer everywhere; I am here to share a few simple creative ways,</p>
-								<div class="author-info clearfix">
-									<img src="{{asset('assets/images/home/3.jpg')}}" alt="" class="author-img">
-									<div class="name-info">
-										<h6 class="name">Zubayer hasan</h6>
-										<span>Developer</span>
-									</div>
-								</div>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/lPSctt2KBjo?si=pKd1cKMgYMl7epJ5" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							</div>
+							<div class="item">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/t_lQ85ff1og?si=LKTVDvvTfnC7NiLN" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							</div>
+							<div class="item">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/DUg95-8EPUg?si=sfbP9G_parGpm684" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							</div>
+							<div class="item">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/YrvNUdF0L3M?si=jDhkM5fhiyLOzFeM" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 							</div>
 						</div> <!-- /.agn-testimonial-slider -->
 					</div> <!-- /.main-content -->
